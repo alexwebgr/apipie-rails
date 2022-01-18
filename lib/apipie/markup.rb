@@ -22,30 +22,5 @@ module Apipie
         end
       end
     end
-
-    class Markdown
-
-      def initialize
-        require 'maruku'
-      end
-
-      def to_html(text)
-        Maruku.new(text).to_html
-      end
-
-    end
-
-    class Textile
-
-      def initialize
-        require 'RedCloth'
-      end
-
-      def to_html(text)
-        RedCloth.new(text).to_html
-      end
-
-    end
-
   end
 end

@@ -4,6 +4,8 @@ require 'bundler/setup'
 ENV["RAILS_ENV"] ||= 'test'
 APIPIE_ROOT = File.expand_path('../..', __FILE__)
 require File.expand_path("../dummy/config/environment", __FILE__)
+require 'simplecov'
+SimpleCov.start
 
 require 'rspec/rails'
 

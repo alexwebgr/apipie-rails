@@ -10,6 +10,7 @@ Gemfile.local
 .rvmrc
 .ruby-version
 .ruby-gemset
+coverage
 
 .DS_Store
 rel-eng/.ipynb_checkpoints

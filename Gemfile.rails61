@@ -1,10 +1,12 @@
 source "https://rubygems.org"
 
 gemspec
+ruby '3.0.0'
 
 gem 'rails', '~> 6.1.1'
-gem 'mime-types', '~> 2.99.3'
+gem 'mime-types', '~> 3.4.1'
 gem 'rails-controller-testing'
-gem 'rspec-rails', '~> 4.0.2'
+gem 'rspec-rails', group: :test
+gem 'simplecov', group: :test
 
 gem 'test_engine', path: 'spec/dummy/components/test_engine', group: :test
