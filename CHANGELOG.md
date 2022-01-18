@@ -1,5 +1,9 @@
  Changelog
 ===========
+## [v1.0.0]
+* Fix tests for ruby 3.0 [#716](https://github.com/Apipie/apipie-rails/pull/716)
+* Removed RedCloth and maruku 
+
 ## [v0.5.19](https://github.com/Apipie/apipie-rails/tree/v0.5.19) (2021-07-25)
 [Full Changelog](https://github.com/Apipie/apipie-rails/compare/v0.5.18...v0.5.19)
 * Add rel-eng notebook (Oleh Fedorenko)

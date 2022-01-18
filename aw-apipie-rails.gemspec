@@ -3,11 +3,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require "apipie/version"
 
 Gem::Specification.new do |s|
-  s.name        = "apipie-rails"
+  s.name        = "aw-apipie-rails"
   s.version     = Apipie::VERSION
-  s.authors     = ["Pavel Pokorny","Ivan Necas"]
-  s.email       = ["pajkycz@gmail.com", "inecas@redhat.com"]
-  s.homepage    = "http://github.com/Apipie/apipie-rails"
+  s.authors     = ["Pavel Pokorny","Ivan Necas", "alexwebgr"]
+  s.email       = ["pajkycz@gmail.com", "inecas@redhat.com", "email@alex-web.gr"]
+  s.homepage    = "https://github.com/alexwebgr/apipie-rails"
   s.summary     = %q{Rails REST API documentation tool}
   s.description = %q{Rails REST API documentation tool}
   s.required_ruby_version = '>= 2.0.0'
