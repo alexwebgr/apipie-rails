@@ -990,11 +990,7 @@ routes_formatter
 
 markup
   You can choose markup language for descriptions of your application,
-  resources and methods. RDoc is the default but you can choose from
-  Apipie::Markup::Markdown.new or Apipie::Markup::Textile.new.
-  In order to use Markdown you need Maruku gem and for Textile you
-  need RedCloth. Add those to your gemfile and run bundle if you
-  want to use them. You can also add any other markup language
+  resources and methods. RDoc is the default. You can also add any other markup language
   processor.
 
 layout
@@ -1438,28 +1434,7 @@ the default version is used instead.
 ========
 
 The default markup language is `RDoc
-<https://rdoc.github.io/rdoc/RDoc/Markup.html>`_. It can be changed in
-the config file (``config.markup=``) to one of these:
-
-Markdown
-  Use Apipie::Markup::Markdown.new. You need Maruku gem.
-
-Textile
-  Use Apipie::Markup::Textile.new. You need RedCloth gem.
-
-Or provide you own object with a ``to_html(text)`` method.
-For inspiration, this is how Textile markup usage is implemented:
-
-.. code:: ruby
-
-   class Textile
-     def initialize
-       require 'RedCloth'
-     end
-     def to_html(text)
-       RedCloth.new(text).to_html
-     end
-   end
+<https://rdoc.github.io/rdoc/RDoc/Markup.html>`_.
 
 ============
 Localization
